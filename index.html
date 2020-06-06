@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Baby Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0413a50a0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head">
+       <div class="img">
+           <img src="baby-shop.jpeg" alt="baby shop"  class="baby-shop" title="All Baby Essential In One Place">
+       </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link mx-5" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle max-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Baby Garments</a>
+                <a class="dropdown-item" href="#">Baby Accessessiories</a>
+                <div class="dropdown-divider"></div>
+                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5" href="service.html">Services</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+    </header>
+    <section class="home">
+      <h2 class="align-center p-30" style="font-family: 'Metal Mania', cursive;">Home</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+            <div class="section-title mb-50 text-center">
+                <!-- Nav pills -->
+                <ul class="nav nav-pills mb-80 justify-content-center" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs active" data-toggle="pill" href="#home">Feature Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs" data-toggle="pill" href="#menu1">Baby New Arrival</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <div class="container">
+                            <div class="row mb-20">
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Toy</h6>
+                                        <img src="buzz-lightyear.jpg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Robot Toy</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Clothes</h6>
+                                        <img src="clothe.jpg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Baby Clothes</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$250</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Car</h6>
+                                        <img src="baby-car.jpeg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Car</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$200</span>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Toy</h6>
+                                        <img src="barby-doll.jpg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4> Barby Doll</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$50</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Care</h6>
+                                        <img src="baby-care.jpeg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Baby Care Products</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$100</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Chair</h6>
+                                        <img src="baby-chair.jpeg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Baby Chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>          
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Shoes</h6>
+                                        <img src="baby-diamond-shoe.jpg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Baby Diamond Shoe</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$100</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Walker</h6>
+                                        <img src="baby-walker.jpeg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Baby Walker</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$250</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-light product-wrapper p-30">
+                                        <h6> Baby Basket</h6>
+                                        <img src="baby-basket.jpeg" height="250" width="300" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>Baby Basket</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$100</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+        <!-- <h3>Baby Shop</h3>
+        <p>Baby Shop is one of the Best Online Shop for Babies.We deal in all type of babies products.Baby Clothes,Baby Shoes,Baby Beding,Baby Feeding,Baby Toy,Bath essential and much more.We offer a wide range of baby products at market effective prices.
+
+        </p>
+        <p>
+            We understand how challenging it is to find the time to shop for our babies and to find new and unique styles.All you have to do is to visit our online store, select your favorite baby products and they will be delivered at your doorsteps for FREE*.
+        </p> -->
+    </section>
+      <br><br>
+    <div class="footer">   
+    <div class="container">
+        <div class="row">
+          <div class="col">Stay Connected<br>
+            <i class="fab fa-facebook mx-2"></i>
+            <i class="fab fa-instagram-square mx-2"></i>
+            <i class="fab fa-twitter mx-2"></i>
+            <i class="fab fa-youtube mx-2"></i>
+          </div>
+          <div class="col">Costomer Services
+            <ul class="u-list">
+              <li><a href="#">Terms and Condition</a></li>
+              <li><a href="#">Coustomer Service</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col">Subscribe to our newsletter by signing up<br>
+           <input type="email" name="email" placeholder="Enter Email">
+            <button class="footer-butn">Sign up</button>
+      
+          </div> 
+        </div>
+    </div>
+    <div class="copyright"> 
+        <p>
+          Copyright<i class="far fa-copyright mx-2"></i>2020 NS Inc. All rights reserved
+        </p>
+    </div>
+        </div>    
+</body>
+</html>
