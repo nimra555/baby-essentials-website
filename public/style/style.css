@@ -149,10 +149,10 @@ input[type=submit]:hover{
 }
 .footer input:focus{
     outline: none;
-    border: 1px solid var(--blue-color);
+    border: 1px solid var(--lightPink-color);
     border-radius: 5px;
     padding: 5px;
-    background: var(--darkPink-color);
+    background: var(--lightPink-color);
 }
 .u-list li{
     list-style: none;
